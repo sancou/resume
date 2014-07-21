@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+img {
+	border:0;	
+}
+
+body {
+	margin-top:20px;	
+
+	background-color: rgb(55,55,55);
+	font-family: 'Ubuntu', sans-serif;
+}
+
+@media (min-width: 768px) {
+  .container-fluid {
+    max-width: 960px;
+    background-color: rgb(255,255,255);
+    margin-bottom:20px;	
+  }
+}
+
+.toolbar-options {
+	position:fixed;
+	top:0%;
+	right:10%;
+	background:#f2f2f2;
+	color:#333;
+	-webkit-border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -moz-border-radius-bottomright: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -moz-border-radius-bottomleft: 10px;
+	padding:5px;
+	height:37px;
+	border:5px solid #D7E0E9;
+	border-top:none;
+}
+
+#profile_pic {
+	display:block;
+	float: right;
+	background: #fcfeff;
+	margin: 10px auto 5px;
+	border: 10px solid #fff;
+	-webkit-box-shadow: 0px 1px 3px #ababab;
+	-moz-box-shadow: 0px 1px 3px #ababab;
+	box-shadow: 0px 1px 3px #ababab;
+}
+
+#profile_name {
+	margin-top:40px;
+	margin-bottom:auto;
+}
+
+ul.contact {
+	margin-left:0;
+	list-style:none;
+	margin-top: 40px;
+	font-size: 13px;
+}
+
+ul.contact > li {
+   word-wrap:break-word;
+}
+
+div.hr {
+	height: 1.5em;
+	border-bottom: 1.5px dashed #ababab;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+div.hr hr {
+	display: none;
+}
+
+h2.section {
+	font-size: 20px !important;
+	font-style: italic;
+	color:rgb(155,155,155);
+	margin-top:8px;
+	margin-left:5px;
+}
+
+h3.page-header {
+	font-size: 18px;
+}
+
+h4.company {
+	font-size: 16px;
+	color: rgb(42,119,216);
+	margin-bottom:5px;
+	
+}
+
+h5.designation {
+	font-size:13px;
+	font-style: italic;
+	margin-top:5px;
+}
+
+.period {
+	margin-top:10px;
+	border:1px solid rgb(218,217,227);
+	padding:5px;
+	background-color: rgb(245,245,248);
+}
+
+.skills {
+	margin-left:20px;
+}
+
+blockquote.function {
+	font-size:14px;
+	font-style: italic;
+}
+
+footer {
+	margin-top:10px;
+	font-size: 12px;
+	color:rgb(255,255,250);
+}
+
+.pad-top {
+	margin-top:20px;
+}
